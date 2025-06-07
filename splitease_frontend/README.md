@@ -11,6 +11,22 @@ This project provides a minimal React template with a clean, modern UI and minim
 
 ## Getting Started
 
+### Supabase Setup
+
+This project uses [Supabase](https://supabase.com/) for authentication, storage, and database functionality.
+
+1. **Create a `.env` file in `splitease_frontend/`**  
+   Copy `.env.example` to `.env` and fill in your Supabase project URL and anon key:
+   ```
+   cp .env.example .env
+   ```
+   - Get your values from the Supabase Project Dashboard > Project Settings > API.
+
+2. **Install dependencies**  
+   ```
+   npm install
+   ```
+
 In the project directory, you can run:
 
 ### `npm start`
